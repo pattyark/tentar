@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="0_|VQdHGzc*i%ukN]=8I" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="%(_UOtPkd*6sP}9[^4[D"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="BOYA5jzk?TjyR`%_Q64E"><value name="note"><shadow type="device_note" id="KJX[dk,[@A{S37tOEsE0"><field name="name">196</field></shadow></value><value name="duration"><shadow type="device_beat" id="?SYeGDh1g/+-MZ~LexQ#"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type="device_show_leds" id="Oy--~M!SX!8IibM~M9C,"><field name="LEDS">`
+        # # # . # 
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # # # . #
+        `</field></block></next></block></statement></block><block type="device_forever" id="Q7sEHjA#K:o]m.kTC}B:" x="225" y="101"></block><block type="device_button_event" id="9SA6-FZAHg#tp]NP,:)v" x="52" y="334"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="DPIzDh;Ng0X7LA8;2aq^"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_button_event" id="|t[^g+zQx`@5AJ[BJoF{" x="-30" y="433"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="maSuy3YurHrR.bq|ZUxA"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # # # # # 
+        # # # # . 
+        # # # # .
+        `</field></block></statement></block><block type="controls_if" id="bv}Q|St61m4)DY5vYOEE" disabled-reasons="pxt_automatic_disabled" x="573" y="468"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="VzK%|soMXKsgj|LWJyJx" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow></value></block></xml>
